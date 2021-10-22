@@ -26,4 +26,5 @@ function getGitHubProfileInfos() {
       userLogin.textContent = data.login
     })
 }
+
 getGitHubProfileInfos()
