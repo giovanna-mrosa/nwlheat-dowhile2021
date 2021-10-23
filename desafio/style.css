@@ -24,6 +24,14 @@ body {
   z-index: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .strip {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+  }
+}
+
 main {
   background: url(./assets/badge.png);
   width: 358px;
