@@ -28,37 +28,41 @@
     />
   </head>
   <body>
-    <span>
-      <img class="strip" src="./assets/faixa.png" alt="Faixa do Crachá" />
+    <span class="strip">
+      <img src="./assets/faixa.png" alt="Faixa do Crachá" />
     </span>
     <main>
       <div class="container">
         <div class="avatar">
-          <span>
+          <span class="strip">
             <img src="./assets/build.svg" alt="Selo Rocketseat" />
           </span>
           <img
+            id="userImage"
             class="person"
             src="./assets/Giovanna Rosa.jpeg"
             alt="Foto Pessoal"
           />
         </div>
 
-        <h1>Giovanna Rosa</h1>
-        <a href="https://github.com/giovanna-mrosa"
+        <h1 id="userName">Giovanna Rosa</h1>
+        <a
+          id="userLink"
+          href="https://github.com/giovanna-mrosa"
+          target="_blank"
           ><img src="./assets/github.svg" alt="Ícone GitHub" />
-          giovanna-mrosa</a
+          <span id="userLogin">giovanna-mrosa</span></a
         >
 
-        <p>An development student focused on Front-End</p>
+        <p id="userBio">An development student focused on Front-End</p>
 
-        <ul>
-          <li>
+        <ul id="socialLinks">
+          <li class="instagram">
             <a href="https://www.instagram.com/giovanna.mrosa/" target="_blank">
               <img src="./assets/instagram.svg" alt="Ícone Instagram" />
             </a>
           </li>
-          <li>
+          <li class="linkedIn">
             <a
               href="https://www.linkedin.com/in/giovannamarcarorosa/"
               target="_blank"
@@ -66,13 +70,10 @@
               <img src="./assets/linkedin.svg" alt="Ícone LinkedIn" />
             </a>
           </li>
-          <li>
-            <a href="mailto:gmarcaro@gmail.com" target="_blank">
-              <img src="./assets/email.svg" alt="Ícone E-mail" />
-            </a>
-          </li>
         </ul>
       </div>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
