@@ -87,6 +87,14 @@ a {
   align-items: center;
 }
 
+#userLogin {
+  transition: 1s ease;
+}
+
+#userLogin:hover {
+  color: #fe207b;
+}
+
 p {
   margin-top: 32px;
 }
@@ -101,6 +109,28 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+.instagran {
+  transition: 1s ease;
+}
+
+.instagram:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+.linkedIn {
+  transition: 1s ease;
+}
+
+.linkedIn:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
 }
 
 .person {
